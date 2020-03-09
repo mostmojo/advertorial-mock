@@ -1,4 +1,3 @@
-
 /* Global styles */
 
 * {
@@ -24,7 +23,8 @@ li, button, label, input, p {
 }
 
 h2 {
-	font-size: 4.8rem;
+	font-size: 2.8rem;
+	padding: 4rem 0;
 }
 
 h3 {
@@ -92,6 +92,70 @@ nav ul {
 	to {
 		transform: translate(0%, 0%);
 	}
+}
+
+.hero {
+	min-height: 20vh;
+	/* background: linear-gradient(rgba(0, 0, 0, 0.8), transparent); */
+	color: #000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.hero h3 {
+	padding: 5rem;
+}
+
+.author {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem 8rem;
+	border-top: 1px solid #a1a1a1;
+	border-bottom: 1px solid #a1a1a1;
+}
+
+.author-name {
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.author-publish {
+	font-size: 1.1rem;
+}
+
+.author-1 {
+	height: 7rem;
+}
+
+.img-container {
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 4rem;
+}
+
+.img-1 {
+	height: 45rem;
+	width: auto;
+	padding-bottom: 4rem;
+	object-fit: cover;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0rem 18rem 4rem;
+}
+
+.content-head {
+	font-size: 1.2rem;
+	text-align: center;
 }
 
 /* Media queries */
