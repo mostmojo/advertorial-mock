@@ -185,6 +185,36 @@ padding-top: 4rem;
 	object-fit: contain;
 }
 
+.comments {
+	background: #f8f8f8;
+  padding: 10px;
+}
+
+.comment-title {
+	font-weight: bold;
+	font-size: 13px;
+	color: #3B5998;
+}
+
+.comment-meta-a {
+	color: #3B5998;
+}
+
+.comment-underline {
+	border-bottom: 1px dotted #666;
+}
+
+a img {
+	border: none;
+}
+
+.shortc-button {
+	background: #6890c2;
+	padding: 2rem 12rem;
+	border-radius: 5px;
+	margin-top: 8rem;
+}
+
 /* Keyframes */
 
 @keyframes logoAnimation {
