@@ -29,7 +29,7 @@ p {
 }
 
 h2 {
-	font-size: 2.8rem;
+	font-size: 3.8rem;
 	padding: 4rem 0;
 	animation: moveInRight 2s ease-out;
 }
@@ -127,22 +127,23 @@ nav ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 2rem 8rem;
+	padding: 2rem 0;
 	border-top: 1px solid #a1a1a1;
 	border-bottom: 1px solid #a1a1a1;
+	width: 49rem;
 }
 
 .author-name {
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	font-weight: 600;
 }
 
 .author-publish {
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 }
 
 .author-publish-alt {
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	margin-left: 1rem;
 }
 
@@ -176,20 +177,20 @@ nav ul {
 }
 
 .content-head {
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	font-weight: 600;
 	margin-bottom: 1rem;
 	text-align: justify;
 }
 
 .content-p {
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	margin-bottom: 1rem;
 	text-align: justify;
 }
 
 .content-p-bold {
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	margin-bottom: 1rem;
 	text-align: justify;
 	font-weight: 600;
@@ -208,16 +209,32 @@ nav ul {
 
 .comment-title {
 	font-weight: bold;
-	font-size: 12px;
+	font-size: 13x;
 	color: #3b5998;
+	font-family: sans-serif;
+}
+
+.comment-meta {
+	font-family: sans-serif;
+}
+
+.comment-text {
+	font-family: sans-serif;
+	font-size: 13px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 18px;
+	display: flex;
 }
 
 .comment-meta-a {
 	color: #3b5998;
+	font-family: sans-serif;
 }
 
 .comment-underline {
 	border-bottom: 1px dotted #666;
+	font-family: sans-serif;
 }
 
 a img {
@@ -228,8 +245,8 @@ a img {
 
 .shortc-button {
 	background: #6890c2;
-	padding: 2rem 12rem;
-	border-radius: 5px;
+	padding: 1rem 12.2rem;
+	border-radius: 4px;
 	margin-top: 8rem;
 	animation: moveInBottom 0.5s ease-out 0.75s;
 	animation-fill-mode: backwards;
@@ -251,7 +268,7 @@ footer {
 
 .footer-link {
 	color: white;
-	font-size: 12px;
+	font-size: 1.4rem;
 }
 
 li {
@@ -259,7 +276,7 @@ li {
 }
 
 .disclaimer {
-	color: white;
+	color: grey;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -268,12 +285,12 @@ li {
 }
 
 .disclaimer-copy {
-	font-size: 12px;
+	font-size: 1.4rem;
 	margin-bottom: 1rem;
 }
 
 .disclaimer-text {
-	font-size: 10px;
+	font-size: 1.4rem;
 }
 
 /* Keyframes */
