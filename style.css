@@ -26,6 +26,7 @@ li, button, label, input, p {
 h2 {
 	font-size: 2.8rem;
 	padding: 4rem 0;
+	animation: moveInRight 1s ease-out;
 }
 
 h3 {
@@ -90,15 +91,6 @@ nav ul {
 	color: #6890c2;
 }
 
-@keyframes logoAnimation {
-	from {
-		transform: translate(8%, -4%);
-	}
-	to {
-		transform: translate(0%, 0%);
-	}
-}
-
 .hero {
 	min-height: 20vh;
 	/* background: linear-gradient(rgba(0, 0, 0, 0.8), transparent); */
@@ -160,12 +152,43 @@ padding-top: 4rem;
 	font-size: 1.2rem;
 	font-weight: 600;
 	margin-bottom: 1rem;
+	text-align: justify;
 }
 
 .content-p {
 	font-size: 1.2rem;
 	margin-bottom: 1rem;
+	text-align: justify;
 }
+
+.content-p-bold {
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+	text-align: justify;
+	font-weight: 600;
+}
+
+/* Keyframes */
+
+@keyframes logoAnimation {
+	from {
+		transform: translate(8%, -4%);
+	}
+	to {
+		transform: translate(0%, 0%);
+	}
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem); }
+  80% {
+    transform: translateX(-1rem); }
+  100% {
+    opacity: 1;
+		transform: translate(0); }
+	}
 
 /* Media queries */
 
