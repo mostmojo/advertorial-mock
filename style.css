@@ -179,6 +179,12 @@ padding-top: 4rem;
 	font-weight: 600;
 }
 
+.img-2 {
+	width: 55rem;
+	padding-bottom: 4rem;
+	object-fit: contain;
+}
+
 /* Keyframes */
 
 @keyframes logoAnimation {
