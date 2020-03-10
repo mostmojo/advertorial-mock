@@ -153,16 +153,11 @@ padding-top: 4rem;
 .content {
 	width: 47.5rem;
 	margin: 0 auto;
-	/* display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center; */
 	text-align: center;
 }
 
 .content-head {
 	font-size: 1.2rem;
-	/* text-align: center; */
 	font-weight: 600;
 	margin-bottom: 1rem;
 }
@@ -171,6 +166,7 @@ padding-top: 4rem;
 	font-size: 1.2rem;
 	margin-bottom: 1rem;
 }
+
 /* Media queries */
 
 @media screen and (max-width: 932px) {
